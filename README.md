@@ -3,13 +3,6 @@ Small program for EverQuote.  Here is the original readme:
 
 
 
-Thank you for your interest in EverQuote.
----------------------------------------
-This is a small problem we would like you to solve so that we may better understand your coding ability.
-
-### Criteria
-We will be looking at your problem-solving ability, code quality, cleanliness, and professionalism.
-
 ### Project
 We would like you to create a web-based ranking system for a darts league. Minimally-outlined html, css, and javascript files have been provided for you.
 
