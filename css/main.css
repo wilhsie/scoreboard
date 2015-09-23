@@ -18,11 +18,21 @@ h1 {
     text-transform: uppercase;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #797979;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+}
+h2 {
+    background: #4D4D4D;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #797979;
     font-size: 18px;
     font-weight: 100;
     padding: 20px;
     margin: -30px -30px 30px -30px;
 }
+
 
 input[type="text"] {
     box-sizing: border-box;
@@ -64,13 +74,6 @@ button:hover {
 div {
     width: 200px;
 }
-
-h2 {
-    font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 ul {
     list-style-type: none;
     margin: 0;

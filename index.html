@@ -3,17 +3,19 @@
 
 <head>
     <meta charset="utf-8">
-    <title>EverQuoteTest</title>
+    <title>Scoreboard</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <h1>Rankings</h1>
+    <h1>Welcome to Scoreboard!</h1>
+    <h2>On the line below please enter the name of the player and their score in the format "name, score"</h2>
+    <br>
+    <ul id="rankings" class="list"></ul>
+    <br>
     <input type="text" value="" id="text_input">
     <br>
     <button id="add" onclick="addToRankings()">Add To Rankings</button>
-    <br>
-    <ul id="rankings" class="list"></ul>
     <br>
     <button id="clear" onclick="clearRankings()">Clear Rankings</button>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
