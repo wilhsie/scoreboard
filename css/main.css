@@ -1,9 +1,15 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: 'Open Sans Condensed', arial, sans;
     width: 500px;
     padding: 30px;
     background: #FFFFFF;
@@ -16,23 +22,21 @@ body {
 h1 {
     background: #4D4D4D;
     text-transform: uppercase;
-    font-family: 'Open Sans Condensed', sans-serif;
     color: #797979;
     font-size: 24px;
     font-weight: 100;
     padding: 20px;
     margin: -30px -30px 30px -30px;
 }
+
 h2 {
     background: #4D4D4D;
-    font-family: 'Open Sans Condensed', sans-serif;
     color: #797979;
     font-size: 18px;
     font-weight: 100;
     padding: 20px;
     margin: -30px -30px 30px -30px;
 }
-
 
 input[type="text"] {
     box-sizing: border-box;
@@ -59,7 +63,6 @@ button {
     display: inline-block;
     cursor: pointer;
     color: #FFFFFF;
-    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 14px;
     padding: 8px 18px;
     text-decoration: none;
@@ -71,15 +74,6 @@ button:hover {
     background-color: #34CACA;
 }
 
-div {
-    width: 200px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 li {
     font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
     border-bottom: 1px solid #ccc;
@@ -89,19 +83,7 @@ li:last-child {
     border: none;
 }
 
-li a {
-    text-decoration: none;
-    color: #000;
-    display: block;
-    width: 200px;
-    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
-    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
-    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
-    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
-    transition: font-size 0.3s ease, background-color 0.3s ease;
-}
-
-li a:hover {
+li:hover {
     font-size: 30px;
     background: #f6f6f6;
 }
