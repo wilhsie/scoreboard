@@ -11,7 +11,7 @@ var myRankings = [];
 
 // -> Bool
 function sanitaryInput(myInput, mySplitInputArr) {
-    var myBool = false;
+    var isSanitary = false;
 
     // name will always be a string, so check if score is an integer
     if (myInput.indexOf(", ") < 0) {
@@ -20,10 +20,10 @@ function sanitaryInput(myInput, mySplitInputArr) {
         // not a number
         alert("Please enter a valid integer for the second argument.");
     } else {
-        myBool = true;
+        isSanitary = true;
     }
 
-    return myBool;
+    return isSanitary;
 }
 
 function addToRankings() {
