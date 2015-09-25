@@ -12,6 +12,10 @@ body {
     padding: 0;
 }
 
+.expand-margin {
+    margin: -30px -30px 30px -30px;
+}
+
 body {
     width: 500px;
     background: #FFFFFF;
@@ -28,7 +32,6 @@ h1 {
     font-size: 24px;
     font-weight: 100;
     padding: 20px;
-    margin: -30px -30px 30px -30px;
 }
 
 h2 {
@@ -37,7 +40,6 @@ h2 {
     font-size: 18px;
     font-weight: 100;
     padding: 20px;
-    margin: -30px -30px 30px -30px;
 }
 
 input[type="text"] {
